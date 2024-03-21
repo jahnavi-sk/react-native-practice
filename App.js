@@ -5,6 +5,7 @@ import { createStackNavigator} from '@react-navigation/stack'
 
 
 import OnboardingScreen from './Components/Onboarding';
+import MsgScreen from './Components/Msg';
 
 const AppStack= createStackNavigator();
 export default function App() {
@@ -13,6 +14,8 @@ export default function App() {
       <AppStack.Navigator headerMode="none">
 
         <AppStack.Screen name="Onboarding" component={OnboardingScreen}></AppStack.Screen>
+        <AppStack.Screen name="Msg" component={MsgScreen}></AppStack.Screen>
+
       </AppStack.Navigator>
     </NavigationContainer>
   );
