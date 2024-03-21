@@ -17,7 +17,6 @@ const MsgScreen = () =>{
                     }>
                     <Text style={styles.buttonTextStyle}>
 
-
             Make Phone Call
           </Text>
                 </TouchableOpacity>
@@ -38,12 +37,6 @@ const MsgScreen = () =>{
           </Text>
         </TouchableOpacity>
                 {/* <Button title="Recent SMS!" onPress={() => alert('Button clicked!')}/> */}
-
-
-
-
-
-               
             </View>
         </SafeAreaView>
         
